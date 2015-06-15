@@ -11,15 +11,13 @@ public class PiggyBankTest
 			new FamilyMember("남동생")
 		};
 		
-		PiggyBank PBT = new PiggyBank();
-		
 		FamilyMember.printMemberCnt();
-		PBT.putMoney(family[0], 10000);
-		PBT.putMoney(family[1], 5000);
-		PBT.putMoney(family[2], 2000);
-		PBT.putMoney(family[3], 1000);
-		PBT.printBalance();
-		PBT.putMoney(family[2], 1000);
-		PBT.printBalance();
+		PiggyBank.putMoney(family[0], 10000);
+		PiggyBank.putMoney(family[1], 5000);
+		PiggyBank.putMoney(family[2], 2000);
+		PiggyBank.putMoney(family[3], 1000);
+		PiggyBank.printBalance();
+		PiggyBank.putMoney(family[2], 1000);
+		PiggyBank.printBalance();
 	}
 }
