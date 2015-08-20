@@ -25,6 +25,14 @@ public class Rectangle extends Figure{
 		this.height = height;
 	}
 	
+	@Override
+	public void printCenter()
+	{
+		System.out.print("사각형의 ");
+		super.printCenter();
+	}
+
+	@Override
 	public double calcArea()
 	{
 		double result = width * height;

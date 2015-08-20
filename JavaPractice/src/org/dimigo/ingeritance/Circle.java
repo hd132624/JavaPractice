@@ -24,6 +24,13 @@ public class Circle extends Figure {
 	}
 	
 	@Override
+	public void printCenter()
+	{
+		System.out.print("원의 ");
+		super.printCenter();
+	}
+	
+	@Override
 	public double calcArea()
 	{
 		double result = radius * radius * Math.PI;
