@@ -25,7 +25,6 @@ public class IdolGroup {
 			}
 			groupCount 	++;
 			System.out.println();
-			System.out.println();
 		}
 	}
 }
