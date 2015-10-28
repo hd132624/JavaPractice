@@ -1,7 +1,7 @@
 /**
  * 
  */
-package abstractclass;
+package org.dimigo.abstractclass;
 
 /**
  * <pre>
